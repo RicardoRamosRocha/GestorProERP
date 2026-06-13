@@ -1,16 +1,16 @@
-# GestorPro ERP — Documento de Visão do Produto
+# Veltis ERP — Documento de Visão do Produto
 
 ## 1. Nome do Projeto
 
-**GestorPro ERP**
+**Veltis ERP**
 
 ## 2. Objetivo do Produto
 
-O **GestorPro ERP** será um sistema de gestão empresarial desenvolvido em **ASP.NET Core MVC**, com **Entity Framework Core** e **SQL Server**, voltado para pequenas e médias empresas.
+O **Veltis ERP** será um sistema de gestão empresarial desenvolvido em **ASP.NET Core MVC**, com **Entity Framework Core** e **SQL Server**, voltado para pequenas e médias empresas.
 
 O sistema terá como objetivo centralizar processos administrativos, comerciais, financeiros e operacionais em uma única plataforma web, moderna, segura e escalável.
 
-Além de ser um projeto de portfólio profissional, o GestorPro ERP será planejado com estrutura suficiente para futuramente ser utilizado comercialmente.
+Além de ser um projeto de portfólio profissional, o Veltis ERP será planejado com estrutura suficiente para futuramente ser utilizado comercialmente.
 
 ## 3. Problema que o Sistema Resolve
 
@@ -25,7 +25,7 @@ Isso gera problemas como:
 * Pouca segurança no acesso aos dados
 * Dificuldade para tomar decisões com base em indicadores
 
-O GestorPro ERP busca resolver esses problemas oferecendo uma solução integrada e organizada.
+O Veltis ERP busca resolver esses problemas oferecendo uma solução integrada e organizada.
 
 ## 4. Público-Alvo
 
@@ -59,7 +59,7 @@ A estrutura inicial do sistema será composta pelos seguintes módulos:
 
 ## 6. Visão Geral da Solução
 
-O GestorPro ERP será uma aplicação web onde usuários autenticados poderão acessar funcionalidades conforme suas permissões.
+O Veltis ERP será uma aplicação web onde usuários autenticados poderão acessar funcionalidades conforme suas permissões.
 
 O sistema terá uma área administrativa com dashboard, cadastros, movimentações e relatórios. Também terá uma API REST planejada para futuras integrações com aplicativos móveis ou outros sistemas.
 
@@ -111,6 +111,6 @@ Durante o desenvolvimento do projeto, o aluno deverá aprender:
 
 ## 10. Resultado Esperado
 
-Ao final do projeto, o GestorPro ERP deverá ser um sistema funcional, bem documentado e apresentável como projeto profissional de portfólio.
+Ao final do projeto, o Veltis ERP deverá ser um sistema funcional, bem documentado e apresentável como projeto profissional de portfólio.
 
 Também deverá servir como base para uma futura versão comercial.

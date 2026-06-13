@@ -1,4 +1,4 @@
-# GestorPro ERP — Levantamento Inicial de Requisitos
+# Veltis ERP — Levantamento Inicial de Requisitos
 
 ## 1. Requisitos Funcionais
 

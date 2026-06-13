@@ -1,8 +1,8 @@
-# GestorPro ERP — Roadmap do Produto
+# Veltis ERP — Roadmap do Produto
 
 ## Objetivo
 
-Este roadmap apresenta a evolução planejada do GestorPro ERP, definindo as entregas previstas para cada fase do projeto.
+Este roadmap apresenta a evolução planejada do Veltis ERP, definindo as entregas previstas para cada fase do projeto.
 
 ---
 

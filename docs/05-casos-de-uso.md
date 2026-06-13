@@ -1,8 +1,8 @@
-# GestorPro ERP — Casos de Uso
+# Veltis ERP — Casos de Uso
 
 ## Objetivo
 
-Este documento descreve os principais casos de uso do sistema GestorPro ERP, identificando os atores envolvidos e os fluxos principais de cada funcionalidade.
+Este documento descreve os principais casos de uso do sistema Veltis ERP, identificando os atores envolvidos e os fluxos principais de cada funcionalidade.
 
 ---
 

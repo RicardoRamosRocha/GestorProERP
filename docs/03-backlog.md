@@ -1,4 +1,4 @@
-# GestorPro ERP — Backlog do Produto
+# Veltis ERP — Backlog do Produto
 
 ## Épico 1 — Autenticação e Segurança
 
