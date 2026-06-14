@@ -20,6 +20,8 @@ public class AppDbContext : DbContext
     public DbSet<PerfilPermissao> PerfilPermissoes
         => Set<PerfilPermissao>();
 
+     public DbSet<Empresa> Empresas => Set<Empresa>();   
+
     protected override void OnModelCreating(
         ModelBuilder modelBuilder)
     {
