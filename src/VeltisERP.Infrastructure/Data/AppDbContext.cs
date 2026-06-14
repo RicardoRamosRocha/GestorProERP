@@ -1,9 +1,10 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using VeltisERP.Domain.Entities;
 
 namespace VeltisERP.Infrastructure.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext
 {
     public AppDbContext(
         DbContextOptions<AppDbContext> options)
@@ -11,27 +12,11 @@ public class AppDbContext : DbContext
     {
     }
 
-    public DbSet<Usuario> Usuarios => Set<Usuario>();
-
-    public DbSet<Perfil> Perfis => Set<Perfil>();
-
-    public DbSet<Permissao> Permissoes => Set<Permissao>();
-
-    public DbSet<PerfilPermissao> PerfilPermissoes
-        => Set<PerfilPermissao>();
-
-     public DbSet<Empresa> Empresas => Set<Empresa>();   
+    public DbSet<Empresa> Empresas => Set<Empresa>();
 
     protected override void OnModelCreating(
         ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-
-        modelBuilder.Entity<PerfilPermissao>()
-            .HasKey(x => new
-            {
-                x.PerfilId,
-                x.PermissaoId
-            });
     }
 }
