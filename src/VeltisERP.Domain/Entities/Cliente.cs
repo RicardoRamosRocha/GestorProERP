@@ -17,4 +17,8 @@ public class Cliente : BaseEntity
     public string? Estado { get; set; }
 
     public string? Cep { get; set; }
+
+    public int EmpresaId { get; set; }
+
+    public Empresa Empresa { get; set; } = null!;
 }

@@ -21,4 +21,6 @@ public class Empresa : BaseEntity
     public string? Cep { get; set; }
 
     public string? LogoUrl { get; set; }
+
+    public ICollection<Cliente> Clientes { get; set; } = new List<Cliente>();
 }
