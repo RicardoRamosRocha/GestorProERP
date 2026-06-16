@@ -1,0 +1,32 @@
+@model IEnumerable<VeltisERP.Domain.Entities.Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h1 class="mb-4">Clientes</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Documento</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Empresa</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NomeRazaoSocial</td>
+                <td>@item.Documento</td>
+                <td>@item.Email</td>
+                <td>@item.Telefone</td>
+                <td>@item.Empresa.NomeFantasia</td>
+            </tr>
+        }
+    </tbody>
+</table>
