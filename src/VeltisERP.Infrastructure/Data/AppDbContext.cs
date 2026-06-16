@@ -14,6 +14,8 @@ public class AppDbContext : IdentityDbContext
 
     public DbSet<Empresa> Empresas => Set<Empresa>();
 
+    public DbSet<Cliente> Clientes => Set<Cliente>();
+
     protected override void OnModelCreating(
         ModelBuilder modelBuilder)
     {
